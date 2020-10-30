@@ -1,5 +1,5 @@
 {
-  "name": "coininfo",
+  "name": "@wagerr/coininfo",
   "version": "5.1.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -21,15 +21,19 @@
     "monacoin",
     "zcash",
     "vertcoin",
-    "qtum"
+    "qtum",
+    "wagerr"
   ],
   "devDependencies": {
     "standard": "*",
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "git+ssh://git@github.com/wagerr/coininfo.git",
     "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "./lib/coininfo.js",
   "files": [
