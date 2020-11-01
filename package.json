@@ -1,5 +1,5 @@
 {
-  "name": "@wagerr/coininfo",
+  "name": "@wagerr-wdk/coininfo",
   "version": "5.1.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -31,9 +31,6 @@
   "repository": {
     "url": "git+ssh://git@github.com/wagerr/coininfo.git",
     "type": "git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "main": "./lib/coininfo.js",
   "files": [
